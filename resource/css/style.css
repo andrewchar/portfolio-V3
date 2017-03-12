@@ -1,0 +1,144 @@
+/*------------------------*/
+/* GLOBAL STYLES */
+/*------------------------*/
+body {
+	// overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+}
+h2 {
+		font-size: 18px;
+    font-weight: 400;
+		letter-spacing: 5px;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #777;
+	font-weight: 300;
+	font-size: 18px;
+  line-height: 27px;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto
+}
+
+@media (max-width: 1050px) {
+	.container {
+		padding : 0 25px;
+	}
+	}
+
+/*------------------------*/
+/* HERO SECTION */
+/*------------------------*/
+.hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bg-hero-img.jpg");
+	background-position: center;
+  background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+}
+.hero ul {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+	-ms-flex-pack: end;
+	    justify-content: flex-end;
+	margin: 0;
+	padding: 20px 0;
+	list-style: none;
+	font-size: 11px;
+}
+.hero ul li {
+	text-transform: uppercase;
+	padding-right: 25px;
+	letter-spacing: 2px;
+	color: rgba(255, 255, 255, .8);
+}
+.hero ul li a {
+	color: rgba(255, 255, 255, .8);
+	text-decoration: none;
+	padding-bottom: 8px;
+	border-bottom: 1px solid transparent
+}
+.hero ul li a:hover {
+	border-bottom : 1px solid #f44336;
+}
+.hero .hero__text {
+	height: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	margin-top: -52px;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+}
+.hero .hero__text h1 {
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 35px;
+	color: #fff
+}
+.hero .hero__text p {
+	letter-spacing: 6px;
+	font-size: 20px;
+	color: rgba(255, 255, 255, .8)
+}
+@media (max-width: 1000px) {
+	.hero .hero__text h1 {
+		letter-spacing : 30px;
+	}
+			}
+@media (max-width: 900px) {
+	.hero .hero__text h1 {
+		letter-spacing : 25px;
+	}
+			}
+@media (max-width: 790px) {
+	.hero .hero__text h1 {
+		font-size : 30px;
+		letter-spacing : 20px;
+	}
+			}
+@media (max-width: 645px) {
+	.hero .hero__text h1 {
+		font-size : 25px;
+		letter-spacing : 15px;
+	}
+			}
+@media (max-width: 500px) {
+	.hero .hero__text h1 {
+		font-size : 22px;
+		letter-spacing : 10px;
+	}
+			}
+@media (max-width: 645px) {
+	.hero .hero__text p {
+		font-size : 16px;
+	}
+			}
+
+/*------------------------*/
+/* ABOUT ME SECTION */
+/*------------------------*/
+.about {
+	margin: 100px 0;
+}
+.about .about__image {}
+@media (max-width: 750px) {
+	.about .about__image {
+		display : none;
+	}
+		}
+
+/*------------------------*/
+/* PORTFOLIO SECTION */
+/*------------------------*/

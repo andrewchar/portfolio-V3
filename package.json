@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewchar/portfolio-V3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewchar/portfolio-V3/issues"
+  },
+  "homepage": "https://github.com/andrewchar/portfolio-V3#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "postcss-scss": "^0.4.1",
+    "precss": "^1.4.0"
+  },
+  "dependencies": {}
+}
