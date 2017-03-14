@@ -30,10 +30,16 @@ p {
 	font-size: 18px;
   line-height: 27px;
 }
+section {
+	margin: 150px 0;
+}
 .sub-head {
 	text-align: center;
 	&.mb-75 {
 		margin-bottom: 75px;
+	&.mb-35 {
+		margin-bottom: 35px;
+	}
 	}
 }
 .full-height-width {
@@ -69,6 +75,7 @@ p {
 	background-attachment: fixed;
 	width: 100%;
 	height: 100vh;
+	margin-top: 0;
 	ul {
 		display: flex;
     flex-direction: row;
@@ -139,7 +146,6 @@ p {
 /* ABOUT ME SECTION */
 /*------------------------*/
 .about {
-	margin: 150px 0;
 	.about__content {
 		text-align: center;
 	}
@@ -153,7 +159,6 @@ p {
 /* PORTFOLIO SECTION */
 /*------------------------*/
 .portfolio {
-	margin: 150px 0;
 	.portfolio__showcase-image {
 		width: 60%;
 		float: left;
@@ -240,5 +245,73 @@ p {
 	}
 	h2, p {
 		color: #ffffff;
+	}
+}
+/*------------------------*/
+/* CONTACT SECTION */
+/*------------------------*/
+.contact {
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/wood.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	margin-bottom: 35px;
+	.contact__content {
+		padding: 50px 0;
+	}
+	h2 {
+		margin-top: 0;
+	}
+	p {
+		color: rgba(255, 255, 255, 0.6);
+	}
+	.button {
+		width: 140px;
+    padding: 10px 0;
+    margin: 0 auto;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #87D37C;
+		a {
+			color: #000;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			font-size: 14px;
+		}
+	}
+}
+/*------------------------*/
+/* FOOTER SECTION */
+/*------------------------*/
+footer {
+	.footer__social {
+		display: flex;
+    justify-content: center;
+	}
+	ul {
+		display: flex;
+		list-style: none;
+		padding: 0;
+		li+li {
+			margin-left: 30px;
+		}
+	}
+	i {
+		color: #000;
+		&.fa-linkedin:hover {
+			color: #007bb6;
+		}
+		&.fa-twitter:hover {
+			color: #00b6f1;
+		}
+	}
+	.copy-right {
+		text-align: center;
+		margin-bottom: 0;
+		font-size: 10px;
 	}
 }
