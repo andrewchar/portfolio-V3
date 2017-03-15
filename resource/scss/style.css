@@ -67,6 +67,25 @@ section {
   display: table;
   clear: both;
 }
+/* STICKY NAV */
+.stuck {
+  position: fixed;
+  top: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 5px #000;
+}
+
+/* offset trick to avoid hashtag links to end up behind fixed nav bar */
+.offset:before {
+	display: block;
+ 	content: " ";
+	height: 104px; /* height of the navbar X 2 */
+  margin-top: -52px;
+  visibility: hidden;
+}
 
 /*------------------------*/
 /* HERO SECTION */

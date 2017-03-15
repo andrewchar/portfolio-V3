@@ -8,7 +8,6 @@
   <meta name="description" content="Andrew Charlebois | Front-End Developer | Portfolio">
   <meta name="author" content="Andrew Charlebois">
 
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400|Open+Sans:300,400">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="vendor/css/normalize.css">
@@ -22,7 +21,7 @@
 <body>
 
 <section id="home" class="hero">
-	<nav>
+	<nav id="nav">
 		<ul>
 			<li><a href="#home">home</a></li>
 			<li><a href="#about">about</a></li>
@@ -36,7 +35,7 @@
 	</div>
 </section>
 
-<section id="about" class="about">
+<section id="about" class="about offset">
   <div class="container">
     <div class="about__content">
       <h2>about me</h2>
@@ -50,7 +49,7 @@
 
 <hr class="page-separator">
 
-<section id="portfolio" class="portfolio">
+<section id="portfolio" class="portfolio offset">
   <div class="container">
     <h2>Portfolio</h2>
     <p class="sub-head mb-75">Previous web projects I have been involved in</p>
@@ -226,6 +225,7 @@
   </div>
 </footer>
 
-  <!-- <script src="js/scripts.js"></script> -->
+  <script src="vendor\js\noframework.waypoints.min.js"></script>
+  <script src="resource\js\script.js"></script>
 </body>
 </html>
