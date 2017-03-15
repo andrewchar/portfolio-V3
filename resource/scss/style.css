@@ -290,7 +290,7 @@ section {
 /*------------------------*/
 .contact {
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/wood.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/wood.jpeg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
