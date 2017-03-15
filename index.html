@@ -20,13 +20,13 @@
 
 <body>
 
-<section class="hero">
+<section id="home" class="hero">
 	<nav>
 		<ul>
-			<li><a href="#">home</a></li>
+			<li><a href="#home">home</a></li>
 			<li><a href="#about">about</a></li>
 			<li><a href="#portfolio">portfolio</a></li>
-			<li><a href="#">contact</a></li>
+			<li><a href="#contact">contact</a></li>
 		</ul>
 	</nav>
 	<div class="hero__text">
@@ -40,7 +40,9 @@
     <div class="about__content">
       <h2>about me</h2>
       <img src="resource\images\about-me.png" alt="andrew charlebois portrait">
-      <p>Hey I'm Andrew, carpenter turned web developer. My passion for building and my attention to detail gives me the ability to pay close attention to every pixel to ensure that in any interface I develop is stunning, yet functional. I am a front-end developer based in Pembroke, Ontario. I'm self-taught and always growing my skills, learning something new every day.</p>
+      <p>Hey, I'm Andrew, a carpenter turned web developer. My passion for building and my attention to detail gives me the ability to pay close attention to every pixel to ensure that in any interface I develop is stunning, yet functional. I am a front-end developer based in Pembroke, Ontario. I'm self-taught and always growing my skills, learning something new every day.</p>
+      <h3>what i do</h3>
+      <p>I specialize in Front-End Development (HTML5, CSS3, JavaScript). I have also done some work with PHP and WordPress.</p>
     </div>
   </div>
 </section>
@@ -48,9 +50,9 @@
 <hr class="page-separator">
 
 <section id="portfolio" class="portfolio">
-  <h2>Portfolio</h2>
-  <p class="sub-head mb-75">Previous web projects I have been involved in</p>
   <div class="container">
+    <h2>Portfolio</h2>
+    <p class="sub-head mb-75">Previous web projects I have been involved in</p>
     <div class="portfolio__showcase clearfix">
       <div class="portfolio__showcase-image">
         <a href="https://www.dairygoodness.ca/cheese/all-you-need-is-cheese" target="_blank"><img src="resource\images\dfc-frame.png" alt="dairy farmers of canada mockup"></a>
@@ -59,18 +61,15 @@
         <h3>Dairy Farmers of Canada</h3>
         <i class="fa fa-tags" aria-hidden="true"></i>
         <ul>
-          <li>what did</li>
-          <li>I do</li>
-          <li>for them</li>
+          <li>cms development</li>
+          <li>ui development</li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque enim elit, at convallis nibh elementum eget. Duis tincidunt enim a risus tincidunt venenatis. Cras ullamcorper nibh sit amet lacinia fermentum. Curabitur sed commodo dui. Vivamus eleifend, enim vitae semper dignissim, ipsum erat rutrum dolor, et porttitor neque odio at mauris.</p>
+        <p>Worked on the multiple Dairy Farmers of Canada sites including the All You Need Is Cheese site. My time was spent working with a combination of CMS(eZ Publish) and hand coding. My tasks included updating blocks of content to incorporate new or updated copy, videos, and images into the site. I would also create new sections of the site by hand coding, working from a PSD.</p>
       </div>
     </div>
-  </div>
 
-  <hr class="portfolio__showcase-separator">
+    <hr class="portfolio__showcase-separator">
 
-  <div class="container">
     <div class="portfolio__showcase clearfix">
       <div class="portfolio__showcase-image">
         <a href="https://www.adidasavenuea.com/" target="_blank"><img src="resource\images\adidas-frame.png" alt="adidas avenue a mockup"></a>
@@ -79,18 +78,15 @@
         <h3>Adidas Avenue A</h3>
         <i class="fa fa-tags" aria-hidden="true"></i>
         <ul>
-          <li>what did</li>
-          <li>I do</li>
-          <li>for them</li>
+          <li>sass</li>
+          <li>responsive</li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque enim elit, at convallis nibh elementum eget. Duis tincidunt enim a risus tincidunt venenatis. Cras ullamcorper nibh sit amet lacinia fermentum. Curabitur sed commodo dui. Vivamus eleifend, enim vitae semper dignissim, ipsum erat rutrum dolor, et porttitor neque odio at mauris.</p>
+        <p>Avenue A is an exclusive, curated premium athletic apparel subscription program. My work for this project included updating the content of the entire site to include newly released box editions which included copy, images, and videos. All of this work was done by hand coding using html5/css3, ensuring that the site remained highly responsive through the updates.</p>
       </div>
     </div>
-  </div>
 
-  <hr class="portfolio__showcase-separator">
+    <hr class="portfolio__showcase-separator">
 
-  <div class="container">
     <div class="portfolio__showcase clearfix">
       <div class="portfolio__showcase-image">
         <a href="https://www.ugo.ca/" target="_blank"><img src="resource\images\ugo-wallet-frame.png" alt="ugo wallet mockup"></a>
@@ -99,39 +95,36 @@
         <h3>Ugo Wallet</h3>
         <i class="fa fa-tags" aria-hidden="true"></i>
         <ul>
-          <li>what did</li>
-          <li>I do</li>
-          <li>for them</li>
+          <li>templating</li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque enim elit, at convallis nibh elementum eget. Duis tincidunt enim a risus tincidunt venenatis. Cras ullamcorper nibh sit amet lacinia fermentum. Curabitur sed commodo dui. Vivamus eleifend, enim vitae semper dignissim, ipsum erat rutrum dolor, et porttitor neque odio at mauris.</p>
+        <p>My role within the project was to work with copywriters and designers to update the site per client request including images, videos, and copy with an emphasis on ensuring the legal copy remained current.</p>
       </div>
     </div>
-  </div>
 
-  <hr class="portfolio__showcase-separator">
+    <hr class="portfolio__showcase-separator">
 
-  <div class="container clearfix">
-    <div class="portfolio__showcase clearfix">
-      <div class="portfolio__showcase-image">
-        <a href="https://www.tdaeroplan.com/" target="_blank"><img src="resource\images\td-aeroplan-frame.png" alt="td aeroplan mockup"></a>
-      </div>
-      <div class="portfolio__showcase-description">
-        <h3>TD Aeroplan</h3>
-        <i class="fa fa-tags" aria-hidden="true"></i>
-        <ul>
-          <li>what did</li>
-          <li>I do</li>
-          <li>for them</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque enim elit, at convallis nibh elementum eget. Duis tincidunt enim a risus tincidunt venenatis. Cras ullamcorper nibh sit amet lacinia fermentum. Curabitur sed commodo dui. Vivamus eleifend, enim vitae semper dignissim, ipsum erat rutrum dolor, et porttitor neque odio at mauris.</p>
+    <div class="clearfix">
+      <div class="portfolio__showcase clearfix">
+        <div class="portfolio__showcase-image">
+          <a href="https://www.tdaeroplan.com/" target="_blank"><img src="resource\images\td-aeroplan-frame.png" alt="td aeroplan mockup"></a>
+        </div>
+        <div class="portfolio__showcase-description">
+          <h3>TD Aeroplan</h3>
+          <i class="fa fa-tags" aria-hidden="true"></i>
+          <ul>
+            <li>symfony</li>
+            <li>php</li>
+            <li>twig</li>
+            <li>javascript</li>
+          </ul>
+          <p>Worked closely with an agile team for this project. Worked with Symfony to create many new web pages leveraging templates or creating new page templates to incorporate new layouts for credit card sign up pages. It was joyfully challenging working with Javascript to incorporate much of the functionality into the page, including geo-location and managing promotion codes correctly.</p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="web-apps clearfix">
-    <div class="container">
+    <div class="web-apps clearfix">
       <h2>web apps</h2>
-      <p class="sub-head mb-75">Personal projects that i've done</p>
+      <p class="sub-head mb-75">Personal projects that I've done</p>
       <ul class="web-apps__showcase">
         <a href="http://andrewchar.github.io/construction/" target="_blank">
           <li>
@@ -140,7 +133,7 @@
     					<div class="blur full-height-width"></div>
     					<div class="caption-text full-height-width">
     						<h2>calmech development</h2>
-    						<p>Fictional construction website geared towards luxury homes and renovations. Project was built to practise applying css knowledge</p>
+    						<p>Fictional construction website geared towards luxury homes and renovations. Project was built to practice applying my css knowledge</p>
     					</div>
     				</div>
     			</li>
@@ -152,7 +145,7 @@
     					<div class="blur full-height-width"></div>
     					<div class="caption-text full-height-width">
     						<h2>calculator</h2>
-    						<p>Project was built using JavaScript. What can I say? it's a calculator, always handy :)</p>
+    						<p>The project was built using JavaScript. What can I say? it's a calculator, always handy :)</p>
     					</div>
     				</div>
     			</li>
@@ -164,7 +157,7 @@
     					<div class="blur full-height-width"></div>
     					<div class="caption-text full-height-width">
     						<h2>pomodoro clock</h2>
-    						<p>Procrastination is the avoidance of doing a task which needs to be accomplished. Use my fully functional pomodoro clock to increase your focus and work flow!</p>
+    						<p>Procrastination is the avoidance of doing a task which needs to be accomplished. Use my fully functional Pomodoro clock to increase your focus and workflow!</p>
     					</div>
     				</div>
     			</li>
@@ -176,7 +169,7 @@
     					<div class="blur full-height-width"></div>
     					<div class="caption-text full-height-width">
     						<h2>wikipedia viewer</h2>
-    						<p>Project developed to search Wikipedia entries and build a curated list of results to your search words in a minimal and sleek kind of way.</p>
+    						<p>The project developed to search Wikipedia entries and build a curated list of results to your search words in a minimal and sleek kind of way.</p>
     					</div>
     				</div>
     			</li>
@@ -186,7 +179,7 @@
   </div>
 </section>
 
-<section class="contact">
+<section id="contact" class="contact">
   <div class="container">
     <div class="contact__content">
       <h2>let's chat!</h2>
@@ -202,10 +195,10 @@
   <div class="footer__social">
     <ul>
       <li>
-        <a href="https://www.linkedin.com/in/andrew-charlebois-a4b947113/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/andrew-charlebois-a4b947113/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
       </li>
       <li>
-        <a href="https://twitter.com/andrew_char"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/andrew_char" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
       </li>
     </ul>
   </div>
@@ -214,6 +207,6 @@
   </div>
 </footer>
 
-  <script src="js/scripts.js"></script>
+  <!-- <script src="js/scripts.js"></script> -->
 </body>
 </html>

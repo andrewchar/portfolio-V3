@@ -26,8 +26,13 @@ p {
   line-height: 27px;
 }
 section {
-	margin: 150px 0;
+	margin: 150px 0
 }
+@media (max-width: 600px) {
+	section {
+		margin : 75px 0;
+	}
+	}
 .sub-head {
 	text-align: center
 }
@@ -49,7 +54,7 @@ section {
 
 @media (max-width: 1050px) {
 	.container {
-		padding : 0 25px;
+		padding : 0 15px;
 	}
 	}
 
@@ -206,7 +211,7 @@ section {
 	width: 50%;
 	border: 0;
 	height: 1px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(217, 217, 217), rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(217, 217, 217), rgba(0, 0, 0, 0))
 }
 .portfolio .fa-tags {
 	vertical-align: middle;
@@ -214,12 +219,38 @@ section {
 .portfolio .web-apps {
 	margin: 75px 0;
 }
+@media (max-width: 1023px) {
+	.portfolio .portfolio__showcase-image {
+		width : 100%;
+		float : none;
+	}
+		}
+@media (max-width: 1023px) {
+	.portfolio .portfolio__showcase-description {
+		width : 100%;
+		float : none;
+	}
+		}
+@media (max-width: 1023px) {
+	.portfolio .portfolio__showcase-description ul {
+		margin : 0;
+	}
+			}
+@media (max-width: 480px) {
+	.portfolio .portfolio__showcase-separator {
+		margin : 40px auto;
+		width : 80%;
+	}
+		}
 /* web apps portion of portfolio */
 .web-apps__showcase {
 	list-style: none;
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	/*h2, p {
+		color: #ffffff;
+	}*/
 }
 .web-apps__showcase li {
 	width: 50%;
@@ -255,9 +286,31 @@ section {
 	position: absolute;
 	text-align: center;
 }
-.web-apps__showcase h2, .web-apps__showcase p {
-	color: #ffffff;
+.web-apps__showcase .caption-text p {
+	padding: 0 30px;
+	color: #fff
 }
+.web-apps__showcase .caption-text h2 {
+	margin-top: 65px;
+	color: #fff
+}
+@media (max-width: 950px) {
+	.web-apps__showcase li {
+		width : 100%;
+		float : none;
+	}
+		}
+@media (max-width: 480px) {
+	.web-apps__showcase .caption-text p {
+		font-size : 15px;
+		line-height : 20px;
+	}
+			}
+@media (max-width: 480px) {
+	.web-apps__showcase .caption-text h2 {
+		margin-top : 35px;
+	}
+			}
 /*------------------------*/
 /* CONTACT SECTION */
 /*------------------------*/
@@ -285,10 +338,10 @@ section {
 	margin: 0 auto;
 	border-radius: 3px;
 	text-align: center;
-	background-color: #87D37C;
+	background-color: #1cbbb4;
 }
 .contact .button a {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
