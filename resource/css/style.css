@@ -131,7 +131,7 @@ section {
 	display: -ms-flexbox;
 	display: flex;
 	text-align: center;
-	margin-top: -52px;
+	margin-top: -25px;
 	-ms-flex-pack: center;
 	    justify-content: center;
 	-ms-flex-direction: column;
@@ -158,13 +158,13 @@ section {
 		letter-spacing : 25px;
 	}
 			}
-@media (max-width: 790px) {
+@media (max-width: 805px) {
 	.hero .hero__text h1 {
 		font-size : 30px;
 		letter-spacing : 20px;
 	}
 			}
-@media (max-width: 645px) {
+@media (max-width: 670px) {
 	.hero .hero__text h1 {
 		font-size : 25px;
 		letter-spacing : 15px;

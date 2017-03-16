@@ -126,7 +126,7 @@ section {
 		height: 100%;
     display: flex;
 		text-align: center;
-    margin-top: -52px;
+    margin-top: -25px;
     justify-content: center;
     flex-direction: column;
 		h1 {
@@ -140,11 +140,11 @@ section {
 			@media (max-width: 900px) {
 				letter-spacing: 25px;
 			}
-			@media (max-width: 790px) {
+			@media (max-width: 805px) {
 				font-size: 30px;
 				letter-spacing: 20px;
 			}
-			@media (max-width: 645px) {
+			@media (max-width: 670px) {
 				font-size: 25px;
 				letter-spacing: 15px;
 			}
