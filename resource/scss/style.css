@@ -131,7 +131,7 @@ section {
 			}
 		}
 	}
-	.hero__text {
+	.hero-text {
 		height: 100%;
     display: flex;
 		text-align: center;
@@ -177,7 +177,7 @@ section {
 /* ABOUT ME SECTION */
 /*------------------------*/
 .about {
-	.about__content {
+	.about-content {
 		text-align: center;
 	}
 	img {
@@ -190,7 +190,7 @@ section {
 /* PORTFOLIO SECTION */
 /*------------------------*/
 .portfolio {
-	.portfolio__showcase-image {
+	.portfolio-showcase__image {
 		width: 60%;
 		float: left;
 		@media (max-width: 1023px) {
@@ -201,7 +201,7 @@ section {
 			width: 100%;
 		}
 	}
-	.portfolio__showcase-description {
+	.portfolio-showcase__description {
 		float: right;
     width: 38%;
 		@media (max-width: 1023px) {
@@ -230,7 +230,7 @@ section {
 			}
 		}
 	}
-	.portfolio__showcase-separator {
+	.portfolio-showcase__separator {
 		margin: 75px auto;
     width: 50%;
     border: 0;
