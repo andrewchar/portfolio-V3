@@ -4,20 +4,24 @@
 body {
 	// overflow: hidden;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Dosis', sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
 }
+
 h2 {
 		font-size: 18px;
 		letter-spacing: 5px;
 		text-align: center;
 }
+
 h3 {
   letter-spacing: 3px;
   font-size: 16px;
 }
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #777;
@@ -25,23 +29,29 @@ p {
 	font-size: 18px;
   line-height: 27px;
 }
+
 section {
 	margin: 150px 0
 }
+
 @media (max-width: 600px) {
 	section {
 		margin : 75px 0;
 	}
 	}
+
 .sub-head {
 	text-align: center
 }
+
 .sub-head.mb-75 {
 	margin-bottom : 75px;
 }
+
 .sub-head.mb-75.mb-35 {
 	margin-bottom : 35px;
 }
+
 .full-height-width {
 	width: 100%;
 	height: 100%;
@@ -75,7 +85,7 @@ section {
 	left: 0;
 	z-index: 2;
 	background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 2px 5px #000;
+  box-shadow: 0 2px 5px #000;
 }
 
 /* offset trick to avoid hashtag links to end up behind fixed nav bar */
@@ -230,9 +240,6 @@ section {
 	padding-left: 0;
 	margin: 0;
 }
-/*@media (max-width: 1023px) {
-				margin: 0;
-			}*/
 .portfolio .portfolio-showcase__description ul li {
 	padding: 3px 6px;
 	background-color: #1cbbb4;
@@ -282,9 +289,6 @@ section {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	/*h2, p {
-		color: #ffffff;
-	}*/
 }
 .web-apps__showcase li {
 	width: 50%;
@@ -319,16 +323,23 @@ section {
 .web-apps__showcase .caption-text {
 	position: absolute;
 	text-align: center;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-direction: column;
+	    flex-direction: column;
 }
 .web-apps__showcase .caption-text p {
 	padding: 0 30px;
 	color: #fff
 }
 .web-apps__showcase .caption-text h2 {
-	margin-top: 65px;
-	color: #fff
+	color: #fff;
 }
-@media (max-width: 950px) {
+@media (max-width: 700px) {
 	.web-apps__showcase li {
 		width : 100%;
 		float : none;
@@ -338,11 +349,6 @@ section {
 	.web-apps__showcase .caption-text p {
 		font-size : 15px;
 		line-height : 20px;
-	}
-			}
-@media (max-width: 480px) {
-	.web-apps__showcase .caption-text h2 {
-		margin-top : 35px;
 	}
 			}
 /*------------------------*/
