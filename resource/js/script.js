@@ -11,7 +11,7 @@ var waypoint = new Waypoint({
   offset: 150
 })
 
-function debounce(func, wait = 20, immediate = true) {
+function debounce(func, wait = 10, immediate = true) {
   var timeout;
   return function() {
     var context = this, args = arguments;

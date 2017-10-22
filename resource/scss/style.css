@@ -267,7 +267,7 @@ section {
 		position: relative;
 		cursor: pointer;
 		overflow: hidden;
-		transition:all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
 		@media (max-width: 700px) {
 			width: 100%;
 			float: none;
@@ -278,24 +278,29 @@ section {
 				z-index: 1;
 			}
 			img {
-				transform: scale(1.1);
+				transform: scale(1.05);
 			}
 		}
 	}
 	img {
 		width: 100%;
 		vertical-align: top;
-		transition:all 0.5s ease-in-out;
+		transition: all 0.9s cubic-bezier(.05,0.2,.1,1);
 	}
 	.caption {
 		position: absolute;
 		top: 0;
 		opacity: 0;
-		transition:all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
 	}
 	.blur { /* adds black overlay on hover when image is hovered. Effect is triggers by opacity: 1 on the li  */
 		position: absolute;
-		background-color: rgba(0,0,0,0.8);
+		&.green { background-color: rgba(0, 166, 81, 0.9); }
+		&.yellow { background-color: rgba(61, 71, 97, 0.6); }
+		&.gray { background-color: rgba(116, 175, 182, 0.6); }
+		&.red { background-color: rgba(248, 93, 97, 0.6); }
+		&.black { background-color: rgba(28, 21, 17, 0.6); }
+		&.brown { background-color: rgba(126, 113, 78, 0.6); }
 	}
 	.caption-text {
 		position: absolute;

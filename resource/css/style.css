@@ -301,29 +301,46 @@ section {
 	position: relative;
 	cursor: pointer;
 	overflow: hidden;
-	transition:all 0.5s ease-in-out
+	transition: all 0.5s ease-in-out
 }
 .web-apps__showcase li:hover .caption {
 	opacity : 1;
 	z-index : 1;
 }
 .web-apps__showcase li:hover img {
-	transform : scale(1.1);
+	transform : scale(1.05);
 }
 .web-apps__showcase img {
 	width: 100%;
 	vertical-align: top;
-	transition:all 0.5s ease-in-out;
+	transition: all 0.9s cubic-bezier(.05,0.2,.1,1);
 }
 .web-apps__showcase .caption {
 	position: absolute;
 	top: 0;
 	opacity: 0;
-	transition:all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 .web-apps__showcase .blur {/* adds black overlay on hover when image is hovered. Effect is triggers by opacity: 1 on the li  */
-	position: absolute;
-	background-color: rgba(0,0,0,0.8);
+	position: absolute
+}
+.web-apps__showcase .blur.green {
+	background-color : rgba(0, 166, 81, 0.9);
+}
+.web-apps__showcase .blur.yellow {
+	background-color : rgba(61, 71, 97, 0.6);
+}
+.web-apps__showcase .blur.gray {
+	background-color : rgba(116, 175, 182, 0.6);
+}
+.web-apps__showcase .blur.red {
+	background-color : rgba(248, 93, 97, 0.6);
+}
+.web-apps__showcase .blur.black {
+	background-color : rgba(28, 21, 17, 0.6);
+}
+.web-apps__showcase .blur.brown {
+	background-color : rgba(126, 113, 78, 0.6);
 }
 .web-apps__showcase .caption-text {
 	position: absolute;
