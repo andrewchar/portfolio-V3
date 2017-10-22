@@ -327,12 +327,14 @@ section {
 /*------------------------*/
 .contact {
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/wood.jpeg");
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
+	// background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/wood.jpeg");
+	// background-position: center;
+	// background-size: cover;
+	// background-attachment: fixed;
+	background-color: #252525;
 	color: #fff;
-	margin-bottom: 35px;
+	margin-bottom: 0;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
 	.contact__content {
 		padding: 50px 0;
 	}
@@ -363,9 +365,12 @@ section {
 /* FOOTER SECTION */
 /*------------------------*/
 footer {
+	background-color: #252525;
+	padding: 20px 0 30px 0;
 	.footer__social {
 		display: flex;
 		justify-content: center;
+		background-color: #252525;
 	}
 	ul {
 		display: flex;
@@ -376,7 +381,8 @@ footer {
 		}
 	}
 	i {
-		color: #000;
+		color: #777;
+		transition: all 0.3s;
 		&.fa-linkedin:hover {
 			color: #007bb6;
 		}
