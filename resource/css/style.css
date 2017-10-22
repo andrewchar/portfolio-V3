@@ -12,14 +12,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-		font-size: 18px;
-		letter-spacing: 5px;
-		text-align: center;
+	font-size: 18px;
+	letter-spacing: 5px;
+	text-align: center;
 }
 
 h3 {
-  letter-spacing: 3px;
-  font-size: 16px;
+	letter-spacing: 3px;
+	font-size: 16px;
 }
 
 p {
@@ -27,7 +27,7 @@ p {
 	color: #777;
 	font-weight: 300;
 	font-size: 18px;
-  line-height: 27px;
+	line-height: 27px;
 }
 
 section {
@@ -73,19 +73,19 @@ section {
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 /* STICKY NAV */
 .stuck {
-  position: fixed;
-  top: 0;
+	position: fixed;
+	top: 0;
 	right: 0;
 	left: 0;
 	z-index: 2;
 	background-color: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 2px 5px #000;
+	box-shadow: 0 2px 5px #000;
 }
 
 /* offset trick to avoid hashtag links to end up behind fixed nav bar */
@@ -93,8 +93,8 @@ section {
 	display: block;
  	content: " ";
 	height: 104px; /* height of the navbar X 2 */
-  margin-top: -52px;
-  visibility: hidden;
+	margin-top: -52px;
+	visibility: hidden;
 }
 
 /*------------------------*/
@@ -177,13 +177,11 @@ section {
 @media (max-width: 1000px) {
 	.hero .hero-text h1 {
 		letter-spacing : 30px;
-	}
-			}
+	} }
 @media (max-width: 900px) {
 	.hero .hero-text h1 {
 		letter-spacing : 25px;
-	}
-			}
+	} }
 @media (max-width: 805px) {
 	.hero .hero-text h1 {
 		font-size : 30px;

@@ -17,14 +17,14 @@ h6 {
 }
 
 h2 {
-		font-size: 18px;
-		letter-spacing: 5px;
-		text-align: center;
+	font-size: 18px;
+	letter-spacing: 5px;
+	text-align: center;
 }
 
 h3 {
-  letter-spacing: 3px;
-  font-size: 16px;
+	letter-spacing: 3px;
+	font-size: 16px;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 	color: #777;
 	font-weight: 300;
 	font-size: 18px;
-  line-height: 27px;
+	line-height: 27px;
 }
 
 section {
@@ -70,19 +70,19 @@ section {
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 /* STICKY NAV */
 .stuck {
-  position: fixed;
-  top: 0;
+	position: fixed;
+	top: 0;
 	right: 0;
 	left: 0;
 	z-index: 2;
 	background-color: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 2px 5px #000;
+	box-shadow: 0 2px 5px #000;
 }
 
 /* offset trick to avoid hashtag links to end up behind fixed nav bar */
@@ -90,8 +90,8 @@ section {
 	display: block;
  	content: " ";
 	height: 104px; /* height of the navbar X 2 */
-  margin-top: -52px;
-  visibility: hidden;
+	margin-top: -52px;
+	visibility: hidden;
 }
 
 /*------------------------*/
@@ -110,11 +110,11 @@ section {
 	}
 	ul {
 		display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 20px 0;
-    list-style: none;
+		flex-direction: row;
+		justify-content: flex-end;
+		margin: 0;
+		padding: 20px 0;
+		list-style: none;
 		font-size: 11px;
 		@media (max-width: 568px) {
 			justify-content: space-around;
@@ -130,7 +130,7 @@ section {
 			a {
 				color: rgba(255, 255, 255, .8);
 				text-decoration: none;
-		    padding-bottom: 8px;
+				padding-bottom: 8px;
 				border-bottom: 1px solid transparent;
 				&:hover {
 					border-bottom: 1px solid #f44336;
@@ -140,22 +140,18 @@ section {
 	}
 	.hero-text {
 		height: 100%;
-    display: flex;
+		display: flex;
 		text-align: center;
-    margin-top: -25px;
-    justify-content: center;
-    flex-direction: column;
+		margin-top: -25px;
+		justify-content: center;
+		flex-direction: column;
 		h1 {
-	    font-size: 36px;
-	    font-weight: 400;
-	    letter-spacing: 35px;
-	    color: #fff;
-			@media (max-width: 1000px) {
-				letter-spacing: 30px;
-			}
-			@media (max-width: 900px) {
-				letter-spacing: 25px;
-			}
+			font-size: 36px;
+			font-weight: 400;
+			letter-spacing: 35px;
+			color: #fff;
+			@media (max-width: 1000px) { letter-spacing: 30px; }
+			@media (max-width: 900px) { letter-spacing: 25px; }
 			@media (max-width: 805px) {
 				font-size: 30px;
 				letter-spacing: 20px;
@@ -171,8 +167,8 @@ section {
 		}
 		p {
 			letter-spacing: 6px;
-	    font-size: 20px;
-	    color: rgba(255, 255, 255, .8);
+			font-size: 20px;
+			color: rgba(255, 255, 255, .8);
 			@media (max-width: 645px) {
 				font-size: 16px;
 			}
@@ -210,7 +206,7 @@ section {
 	}
 	.portfolio-showcase__description {
 		float: right;
-    width: 38%;
+		width: 38%;
 		@media (max-width: 1023px) {
 			width: 100%;
 			float: none;
@@ -236,10 +232,10 @@ section {
 	}
 	.portfolio-showcase__separator {
 		margin: 75px auto;
-    width: 50%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(217, 217, 217), rgba(0, 0, 0, 0));
+		width: 50%;
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(217, 217, 217), rgba(0, 0, 0, 0));
 		@media (max-width: 480px) {
 			margin: 40px auto;
 			width: 80%;
@@ -298,11 +294,11 @@ section {
 		position: absolute;
 		text-align: center;
 		display: flex;
-    align-items: center;
-    justify-content: center;
+		align-items: center;
+		justify-content: center;
 		flex-direction: column;
 		p {
-	    padding: 0 30px;
+			padding: 0 30px;
 			color: #fff;
 			@media (max-width: 480px) {
 				font-size: 15px;
@@ -336,11 +332,11 @@ section {
 	}
 	.button {
 		width: 140px;
-    padding: 10px 0;
-    margin: 0 auto;
-    border-radius: 3px;
-    text-align: center;
-    background-color: #1cbbb4;
+		padding: 10px 0;
+		margin: 0 auto;
+		border-radius: 3px;
+		text-align: center;
+		background-color: #1cbbb4;
 		a {
 			color: #fff;
 			text-decoration: none;
@@ -357,7 +353,7 @@ section {
 footer {
 	.footer__social {
 		display: flex;
-    justify-content: center;
+		justify-content: center;
 	}
 	ul {
 		display: flex;
