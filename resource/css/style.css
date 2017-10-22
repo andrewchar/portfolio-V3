@@ -77,6 +77,12 @@ section {
 	display: table;
 	clear: both;
 }
+.nav {
+	transition: all 2s;
+}
+.hidden-nav {
+	opacity: 0;
+}
 /* STICKY NAV */
 .stuck {
 	position: fixed;
@@ -86,6 +92,7 @@ section {
 	z-index: 2;
 	background-color: rgba(0, 0, 0, 0.8);
 	box-shadow: 0 2px 5px #000;
+	opacity: 1;
 }
 
 /* offset trick to avoid hashtag links to end up behind fixed nav bar */
