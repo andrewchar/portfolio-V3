@@ -222,6 +222,7 @@ section {
 .about img {
 	border-radius: 50%;
 	margin: 24px 0 14px;
+	width: 200px;
 }
 
 /*------------------------*/
