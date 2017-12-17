@@ -346,6 +346,9 @@ section {
 .web-apps__showcase .blur.blue {
 	background-color : rgba(140, 184, 255, 0.8);
 }
+.web-apps__showcase .blur.dark-blue {
+	background-color : rgba(14, 63, 142, 0.8);
+}
 .web-apps__showcase .caption-text {
 	position: absolute;
 	text-align: center;
