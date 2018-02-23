@@ -298,7 +298,7 @@ section {
 		position: absolute;
 		&.green { background-color: rgba(0, 166, 81, 0.9); }
 		&.yellow { background-color: rgba(61, 71, 97, 0.6); }
-		&.gray { background-color: rgba(116, 175, 182, 0.6); }
+		&.gray { background-color: rgba(255, 95, 53, 0.8); }
 		&.red { background-color: rgba(248, 93, 97, 0.6); }
 		&.black { background-color: rgba(28, 21, 17, 0.6); }
 		&.brown { background-color: rgba(126, 113, 78, 0.6); }
