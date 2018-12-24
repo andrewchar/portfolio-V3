@@ -304,6 +304,7 @@ section {
 		&.brown { background-color: rgba(126, 113, 78, 0.6); }
 		&.blue { background-color: rgba(140, 184, 255, 0.8); }
 		&.dark-blue { background-color: rgba(14, 63, 142, 0.8); }
+		&.purple { background-color: rgba(129, 25, 226, 0.8); }
 	}
 	.caption-text {
 		position: absolute;
